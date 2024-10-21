@@ -26,12 +26,12 @@ Be aware of the following:
 
 x86
 ```bash
-curl -o servarr-install-script.sh https://raw.githubusercontent.com/chrnnk/servarr/refs/heads/master/servarr/servarr-install-script-x86.sh
+curl -o servarr-install-script.sh https://raw.githubusercontent.com/chrnnk/servarr/master/servarr/servarr-install-script-x86.sh
 ```
 
 ARM
 ```bash
-curl -o servarr-install-script.sh https://raw.githubusercontent.com/chrnnk/servarr/refs/heads/master/servarr/servarr-install-script-arm.sh
+curl -o servarr-install-script.sh https://raw.githubusercontent.com/chrnnk/servarr/master/servarr/servarr-install-script-arm.sh
 ```
 
 - To run the install script
