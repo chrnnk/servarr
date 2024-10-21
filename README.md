@@ -37,11 +37,7 @@ curl -o servarr-install-script.sh https://raw.githubusercontent.com/chrnnk/serva
 - To run the install script
 
 ```shell
-sudo bash servarr-install-script-x86.sh
-```
-or
-```shell
-sudo bash servarr-install-script-arm.sh
+sudo bash servarr-install-script.sh
 ```
 
 ## Uninstalling
