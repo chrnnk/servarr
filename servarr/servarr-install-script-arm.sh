@@ -73,35 +73,35 @@ select app in lidarr prowlarr radarr readarr whisparr quit; do
     case $app in
     lidarr)
         app_port="8686"                                          # Default App Port; Modify config.xml after install if needed
-        app_prereq="curl sqlite3 libchromaprint-tools mediainfo" # Required packages
+        app_prereq="curl sqlite3 libchromaprint-tools mediainfo icu-devtools" # Required packages
         app_umask="0002"                                         # UMask the Service will run as
         branch="master"                                          # {Update me if needed} branch to install
         break
         ;;
     prowlarr)
         app_port="9696"           # Default App Port; Modify config.xml after install if needed
-        app_prereq="curl sqlite3" # Required packages
+        app_prereq="curl sqlite3 icu-devtools" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="master"           # {Update me if needed} branch to install
         break
         ;;
     radarr)
         app_port="7878"           # Default App Port; Modify config.xml after install if needed
-        app_prereq="curl sqlite3" # Required packages
+        app_prereq="curl sqlite3 icu-devtools" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="master"           # {Update me if needed} branch to install
         break
         ;;
     readarr)
         app_port="8787"           # Default App Port; Modify config.xml after install if needed
-        app_prereq="curl sqlite3" # Required packages
+        app_prereq="curl sqlite3 icu-devtools" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="develop"          # {Update me if needed} branch to install
         break
         ;;
     whisparr)
         app_port="6969"           # Default App Port; Modify config.xml after install if needed
-        app_prereq="curl sqlite3" # Required packages
+        app_prereq="curl sqlite3 icu-devtools" # Required packages
         app_umask="0002"          # UMask the Service will run as
         branch="nightly"          # {Update me if needed} branch to install
         break
